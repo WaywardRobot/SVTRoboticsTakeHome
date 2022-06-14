@@ -1,0 +1,3 @@
+# Ignore all files in bin and obj, they will be rebuilt as needed.
+bin/
+obj/
