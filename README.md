@@ -18,9 +18,9 @@ It is designed as an example of querying an existing API to get a list of robots
 
 ---
 
-Clone the Repository from GitHub
-Open the folder in Visual Studio Code
-From the terminal run:
+- Clone the Repository from GitHub
+- Open the folder in Visual Studio Code
+- From the terminal run:
 
 ```bash
 dotnet run
@@ -34,7 +34,7 @@ Endpoints:
 http://localhost:5000/api/robots/closest/
 https://localhost:5001/api/robots/closest/
 
-Include in the body of the Post the load in json format like:
+Include in the body of the Post the load in json format like:\
 { "loadId": 231, "x": 5, "y": 3 }
 
 If you get "Unsupported Media Type" errors, check that you are including the load in the body and that it is in JSON format.
